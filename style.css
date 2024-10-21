@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cars{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 17px;
+    text-align: center;
+    color: cornflowerblue;
+}
+.type-text-group{
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
+input[type=text]{
+    padding: 17px 16px;
+    margin: 8px 0;
+    width: 30%
+    background-color: chartreuse;
+}
+input[type=email]{
+    padding: 17px 16px;
+    margin: 8px 0;
+    width: 20%; 
+    background-color:lightpink;  
+}
+input[type=tel]{
+    padding: 17px 16px;
+    margin: 8px 0;
+    width: 20%;
+    background-color: lightgrey;
+  
+}
+select{
+    padding: 17px 16px;
+    margin: 8px 0;
+    width: 20%;     
+}
+input[type=submit]{
+    padding: 17px 16px;
+    margin: 40px 20px 30px 300px;
+    width: 15%;
+    background-color: chartreuse;
+    border-radius: 20px;  
+}
+input[type=delete]{
+    padding: 17px 16px;
+    margin: 40px 20px 30px 300px;
+    width: 15%;
+    background-color: yellow;
+    border-radius: 20px;  
+}
+
+input[type=clear]{
+    padding: 17px 16px;
+    margin: 40px 20px 30px 300px;
+    width: 15%;
+    background-color:grey;
+    border-radius: 20px;  
+}
+
+
+
+
+form{
+    border: 12px solid red;
+    background-color: lightblue;
+    background-image: url(plan.png);
+    margin: 17px 16px 19px 30px;
+    background-size: cover;
+    background-repeat: round;
+}
+.section{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.section h1{
+    font-size: 15px;
+}
